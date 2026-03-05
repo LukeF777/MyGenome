@@ -16,10 +16,32 @@ Repository for storing results from genome analysis - Sample Eb314ss1
 ---
 
 ## 1. Assess Sequence Quality with FASTQC
+* **Raw Reads (Single End):** 6,615,883
+
 ## 2. Trim Adaptors and Poor Quality Sequence with Trimmomatic
+* **Cleaned Reads Used for Assembly:** 5,906,576
+* **Total Bases in Cleaned Reads:** 1,780,327,732
+
 ## 3. Generate an Optimized MyGenome Assembly using Velvet and SPAdes
+Based on k-mer optimization and algorithm comparison, the following assembly metrics were produced:
+
+| Metric | Velvet (k=10) | Velvet (k=2) | SPAdes (Standard) | SPAdes (Paired Only) |
+| :--- | :--- | :--- | :--- | :--- |
+| **Recommended k-mer** | 83 | - | - | - |
+| **Genome Size** | 40,297,917 | 40,380,887 | 40,388,759 | 40,341,516 |
+| **# Contigs** | 3,370 | 3,880 | 4,597 | 4,168 |
+| **N50 Value** | 116,385 | 124,822 | 202,513 | 233,912 |
+
 ## 4. Perform Genome Post-Processing for NCBI Submission
+* **Assembly Accession #:** SUB15999145 (Temporary)
+* **Final Cleaned Genome Size:** 40,137,340
+* **Final Contig Count:** 2,492
+* **Final N50:** 232,638
+
 ## 5. Assess Genome Quality using BUSCO
+* **Fold Coverage:** [Insert Value]
+* **BUSCO Score (%):** [Insert Score]
+* **BUSCO Score (Complete + Fragmented) (%):** [Insert Score]
 
 | Metric | Details |
 | :--- | :--- |
