@@ -50,6 +50,6 @@ All N50 calculated using **[calculate_n50.sh](./calculate_n50.sh)**
 * **Final N50:** 232,638 
 
 ## 5. Assess Genome Quality using BUSCO
-* **Fold Coverage:** [Insert Value]
-* **BUSCO Score (%):** [Insert Score]
-* **BUSCO Score (Complete + Fragmented) (%):** [Insert Score]
+* **Fold Coverage:** 44.36
+* **BUSCO Score (%):** 98.60%
+* **BUSCO Score (Complete + Fragmented) (%):** 98.60%
